@@ -1,0 +1,11 @@
+commands:
+  discord:
+    - "<blue><st>                                          <reset>"
+    - "<blue><bold>Join our Discord!"
+    - "<white>- <yellow>https://discord.gg/wGKncuKFAw"
+    - "<blue><st>                                          <reset>"
+  github:
+    - "<yellow><st>                                          <yellow>"
+    - "<yellow><bold>Check out our GitHub!"
+    - "<gray>95% of our plugins are self made and open source."
+    - "<white>- <light_purple>https://github.com/Crumb-Network"
