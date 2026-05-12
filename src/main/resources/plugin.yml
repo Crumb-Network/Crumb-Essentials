@@ -1,0 +1,6 @@
+name: Crumb-Essentials
+version: '$version'
+
+main: net.kalbskinder.crumbEssentials.CrumbEssentials
+api-version: '26.1.2'
+load: POSTWORLD
