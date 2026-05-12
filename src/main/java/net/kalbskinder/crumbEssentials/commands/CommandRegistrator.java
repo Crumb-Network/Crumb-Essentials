@@ -18,6 +18,7 @@ public class CommandRegistrator {
     ) {
         commands.add(new GithubCommand(config).build());
         commands.add(new DiscordCommand(config).build());
+        commands.add(new PluginsCommand(config).build());
 
         commandManager.registerCommands(commands);
     }

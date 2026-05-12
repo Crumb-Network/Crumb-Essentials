@@ -22,6 +22,13 @@ java {
 }
 
 tasks {
+    shadowJar {
+        from(sourceSets.main.get().output)
+        from("src/main/resources") {
+            include("config.yml")
+        }
+    }
+
     runServer {
         // Configure the Minecraft version for our task.
         // This is the only required configuration besides applying the plugin.

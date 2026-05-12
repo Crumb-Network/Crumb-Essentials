@@ -1,11 +1,20 @@
 commands:
   discord:
-    - "<blue><st>                                          <reset>"
+    - "<blue><st>                                                             <reset>"
     - "<blue><bold>Join our Discord!"
-    - "<white>- <yellow>https://discord.gg/wGKncuKFAw"
-    - "<blue><st>                                          <reset>"
+    - "<yellow>https://discord.gg/wGKncuKFAw"
+    - "<blue><st>                                                             <reset>"
   github:
-    - "<yellow><st>                                          <yellow>"
+    - "<yellow><st>                                                             <reset>"
     - "<yellow><bold>Check out our GitHub!"
-    - "<gray>95% of our plugins are self made and open source."
-    - "<white>- <light_purple>https://github.com/Crumb-Network"
+    - "<gray>95% of our plugins are self made"
+    - "<gray>and open source."
+    - "<light_purple>https://github.com/Crumb-Network"
+    - "<yellow><st>                                                             <reset>"
+
+# List of plugins on our server
+plugins:
+  self-made:
+    - "Crumb-Essentials"
+  other:
+    - "LuckPerms"
